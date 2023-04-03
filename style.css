@@ -53,13 +53,6 @@ body {
     border-left: 10px solid #ccc;
   }
   
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
-  }
-  
   /* Define the AI animation */
   @keyframes ai-animation {
     0% {
@@ -267,33 +260,18 @@ body {
     --df-messenger-send-button-background-color: #D3D3D3;
   }
 
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh; /* set minimum height to 100% of viewport height */
+  min-height: 100vh;
   display: flex;
-  flex-direction: column; /* make the body a flex container with column direction */
-}
-
-main {
-  flex-grow: 1; /* make the main content expand to fill remaining space */
+  flex-direction: column;
 }
 
 footer {
-  flex-shrink: 0; /* prevent the footer from shrinking */
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  padding: 20px;
+  text-align: center;
 }
