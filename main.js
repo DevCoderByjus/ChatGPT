@@ -11,3 +11,10 @@ aiElement.addEventListener('click', function() {
     aiElement.classList.remove('clicked');
   }, 1000); // Set the timeout to match the duration of the click animation
 });
+
+function addMessageToChat(message) {
+  const chatMessages = document.querySelector('.chat-messages');
+  const messageElement = document.createElement('div');
+  messageElement.textContent = message;
+  chatMessages.appendChild(messageElement);
+}

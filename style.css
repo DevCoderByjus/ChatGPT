@@ -273,3 +273,10 @@ footer {
 footer {
   text-align: center;
 }
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}
