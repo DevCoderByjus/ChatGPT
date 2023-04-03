@@ -260,25 +260,8 @@ body {
     --df-messenger-send-button-background-color: #D3D3D3;
   }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-footer {
-  text-align: center;
-}
-
-@media screen and (max-width: 480px) {
-  footer {
-    height: auto;
-    padding: 20px;
-  }
 }
