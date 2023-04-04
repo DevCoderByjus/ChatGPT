@@ -18,3 +18,5 @@ function addMessageToChat(message) {
   messageElement.textContent = message;
   chatMessages.appendChild(messageElement);
 }
+
+const sideNav = document.querySelector('.side-nav');
